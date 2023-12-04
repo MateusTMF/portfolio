@@ -1,0 +1,68 @@
+/*Estilo geral . Aplica para todos os elementos do meu site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que fiquem todos dentro da mesma borda da caixa*/
+    font-family: 'Poppins', sans-serif;/*Fontes do goolge fonts*/
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçaalho */
+
+header{
+    padding: 40px 4%;
+
+}
+
+/* procura os elementos que possuem a classe interface dentro do header */
+header > .interface{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*para ficar o mais distante possivel um do outro*/
+}
+
+/* chama todas as tags "a" do header*/
+header a{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+/* quando passar o mouse por cima vai acontecer algo */
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Retira as bolinhas padrão da lista ordenada */
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #fff;
+}
