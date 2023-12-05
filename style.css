@@ -1,3 +1,4 @@
+/* Estilos Gerais */
 *{  
     margin: 0;
     padding: 0;
@@ -10,9 +11,22 @@ body{
 
 header{
     padding: 10px 20px;
-    background-color: black;
+    background-color: #252440;
 }
 
+.btn{
+    padding: 8px 25px;
+    border-radius: 15px;
+    background-color: #4432c6;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover{
+    scale: 1.04;
+}
+
+/* Estilo do cabeçalho */
 header a{
     color: white;
     text-decoration: none;
@@ -22,6 +36,7 @@ header .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 header nav ul{
@@ -34,18 +49,20 @@ header nav ul li{
 }
 
 .text-topo-site{
-    background-color: rgb(102, 102, 102);
+    background-color: #727272;
     text-align: center;
     color: white;
 }
 
+/* Estilo dos portifolios */
+
 .portifolios{
-    background-color: rgb(168, 168, 168);
+    background-color: #fff;
 }
 .container{
-    background-color: ;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -59,4 +76,17 @@ header nav ul li{
 
 .card:hover{
     scale: 1.05;
+}
+
+
+
+/* Estilo do rodaé */
+
+.rodape{
+    background-color: #727272;
+    color: #fff;
+    padding: 40px;
+}
+.contato{
+    text-align: center;
 }
