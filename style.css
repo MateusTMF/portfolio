@@ -49,9 +49,14 @@ header nav ul li{
 }
 
 .card{
-    
+    box-shadow: 20px black;
+    border-radius: 20px;
     border: 2px solid;
     padding: 10% 5%;
     margin: 2%;
     text-align: center;
+}
+
+.card:hover{
+    scale: 1.05;
 }
