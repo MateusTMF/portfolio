@@ -5,7 +5,6 @@
 }
 
 body{
-    background-color: antiquewhite;
     height: 100vb;
 }
 
@@ -34,23 +33,25 @@ header nav ul li{
     padding: 0 30px;
 }
 
+.text-topo-site{
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+    color: white;
+}
+
+.portifolios{
+    background-color: rgb(168, 168, 168);
+}
 .container{
-    width: 1280px;
-    padding: 20px;
+    background-color: ;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .card{
-    position: relative;
-    width: 300px;
-    margin: 20px;
+    
     border: 2px solid;
-    padding: 20px;
-}
-
-.container .card{
-    position: relative;
+    padding: 10% 5%;
+    margin: 2%;
+    text-align: center;
 }
