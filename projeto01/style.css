@@ -1,33 +1,49 @@
+/* Estilos Gerais */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
-    font-size: 30px;
-}
-
-p{
-    font-size: 20px;
-}
-
 body{
     height: 100vb;
 }
 
-header{
+.flex{
     display: flex;
-    background-color: rgb(58, 58, 58);
-    text-align: center;
-    padding: 30px;
-    justify-content: space-between;
 }
 
-header .navbar a{
-    color: #fff;
-    margin: 20px;
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilo Cabeçalho */
+
+header{
+    padding: 40px 4%;
+    background-color: rgb(87, 87, 87);
+}
+
+header a{
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu-desktop a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(212, 69, 69);
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* topo do site */
