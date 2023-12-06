@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vb;
+}
+
+header{
+    display: flex;
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+header .navbar a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+}
+
+/* Corpo do site */
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section img{
+    width: 80vb;
+    margin: 20px;
+}

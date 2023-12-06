@@ -14,44 +14,32 @@ header{
     background-color: #252440;
 }
 
-.btn{
-    padding: 8px 25px;
-    border-radius: 15px;
-    background-color: #4432c6;
-    color: #fff;
-    border: none;
-}
-
 .btn:hover{
     scale: 1.04;
 }
 
 /* Estilo do cabeçalho */
-header a{
-    color: white;
-    text-decoration: none;
-}
 
-header .interface{
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
 }
 
-header nav ul{
-    list-style-type: none;
+header a{
+    font-size: 18px;
+    color: #fff;
+    margin: 0px 20px;
+    text-decoration: none;
 }
 
-header nav ul li{
-    display: inline-block;
-    padding: 0 30px;
-}
-
-.text-topo-site{
-    background-color: #727272;
-    text-align: center;
-    color: white;
+.btn-contato .btn{
+    padding: 8px 25px;
+    border-radius: 15px;
+    background-color: #4432c6;
+    color: #fff;
+    border: none;
 }
 
 /* Estilo dos portifolios */
@@ -65,6 +53,13 @@ header nav ul li{
     flex-wrap: wrap;
 }
 
+.container .btn{
+    background-color: #474747;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
 .card{
     box-shadow: 20px black;
     border-radius: 20px;
@@ -72,6 +67,7 @@ header nav ul li{
     padding: 10% 5%;
     margin: 2%;
     text-align: center;
+    background-color:#cecece;
 }
 
 .card:hover{
