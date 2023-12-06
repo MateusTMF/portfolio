@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
 body{
     height: 100vb;
 }
@@ -22,15 +30,25 @@ header .navbar a{
     text-decoration: none;
 }
 
-/* Corpo do site */
+/* topo do site */
 
-main section{
+.topo-site{
+    background-color: rgb(168, 168, 168);
+}
+
+.texto-topo-site{
+    text-align: center;
+}
+
+
+main .topo-site{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 main section img{
-    width: 80vb;
-    margin: 20px;
+    width: 200px;
+    margin: 50px 4%;
+    border-radius: 20px;
 }
